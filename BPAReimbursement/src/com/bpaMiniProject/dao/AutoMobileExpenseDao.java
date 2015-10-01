@@ -48,6 +48,7 @@ public class AutoMobileExpenseDao
         criteria.setProjection(Projections.rowCount());
 		rowlist = criteria.list();	
 		System.out.println("hai in mouni");
+		System.out.println("hai am sekhar");
 		try 
 	    {    	
 			if (!rowlist.isEmpty()) 
